@@ -40,6 +40,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
@@ -148,6 +150,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.checkBox9);
+            this.groupBox2.Controls.Add(this.checkBox8);
             this.groupBox2.Controls.Add(this.checkBox7);
             this.groupBox2.Controls.Add(this.checkBox6);
             this.groupBox2.Controls.Add(this.checkBox5);
@@ -158,10 +162,32 @@
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Location = new System.Drawing.Point(12, 166);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(418, 163);
+            this.groupBox2.Size = new System.Drawing.Size(418, 196);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Features";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.Checked = true;
+            this.checkBox9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox9.Location = new System.Drawing.Point(6, 150);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(397, 18);
+            this.checkBox9.TabIndex = 13;
+            this.checkBox9.Text = "Change Splash Texts";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.Checked = true;
+            this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox8.Location = new System.Drawing.Point(6, 130);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(397, 18);
+            this.checkBox8.TabIndex = 12;
+            this.checkBox8.Text = "Change Ending Screen";
+            this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // checkBox7
             // 
@@ -243,7 +269,7 @@
             // 
             // checkBox1
             // 
-            this.checkBox1.Location = new System.Drawing.Point(6, 130);
+            this.checkBox1.Location = new System.Drawing.Point(6, 170);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(397, 18);
             this.checkBox1.TabIndex = 11;
@@ -256,7 +282,7 @@
             this.button2.Location = new System.Drawing.Point(436, 46);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(132, 23);
-            this.button2.TabIndex = 12;
+            this.button2.TabIndex = 20;
             this.button2.Text = "Generate";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -266,43 +292,46 @@
             this.button4.Location = new System.Drawing.Point(436, 75);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(132, 23);
-            this.button4.TabIndex = 13;
+            this.button4.TabIndex = 21;
             this.button4.Text = "Open resource packs";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(436, 249);
+            this.button6.Location = new System.Drawing.Point(436, 281);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(132, 23);
-            this.button6.TabIndex = 14;
+            this.button6.TabIndex = 22;
             this.button6.Text = "GitHub (resource pack)";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(436, 278);
+            this.button7.Location = new System.Drawing.Point(436, 310);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(132, 23);
-            this.button7.TabIndex = 15;
+            this.button7.TabIndex = 23;
             this.button7.Text = "GitHub (installer)";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(436, 306);
+            this.button8.Location = new System.Drawing.Point(436, 339);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(132, 23);
-            this.button8.TabIndex = 16;
+            this.button8.TabIndex = 24;
             this.button8.Text = "Website";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(580, 338);
+            this.ClientSize = new System.Drawing.Size(580, 372);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -323,6 +352,9 @@
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox checkBox9;
 
         private System.Windows.Forms.CheckBox checkBox7;
 

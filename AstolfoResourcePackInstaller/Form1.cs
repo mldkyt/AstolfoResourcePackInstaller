@@ -67,15 +67,13 @@ namespace AstolfoResourcePackInstaller
                     loadingFormUpdater.Dispose();
                     return;
                 }
+
                 loadingForm.SetText(_status);
                 loadingForm.Update();
             };
             loadingFormUpdater.Interval = 1;
             loadingFormUpdater.Start();
-            var t = new Thread(() =>
-            {
-                MakeResourcePack().Wait();
-            });
+            var t = new Thread(() => { MakeResourcePack().Wait(); });
             t.Start();
         }
 
@@ -371,8 +369,40 @@ namespace AstolfoResourcePackInstaller
 
                 #endregion
 
+                #region Ending Text
+
+                if (checkBox8.Checked)
+                {
+                    Directory.CreateDirectory("ResourcePack\\assets\\minecraft\\texts");
+                    var str = new StringBuilder();
+                    for (int i = 0; i < 10000; i++)
+                    {
+                        str.Append(":3 ");
+                    }
+
+                    File.WriteAllText("ResourcePack\\assets\\minecraft\\texts\\end.txt", str.ToString());
+                }
+
+                #endregion
+
+                #region Splashes
+
+                if (checkBox9.Checked)
+                {
+                    Directory.CreateDirectory("ResourcePack\\assets\\minecraft\\texts");
+                    var str = new StringBuilder();
+                    for (int i = 0; i < 15; i++)
+                    {
+                        str.Append(":3 ");
+                    }
+
+                    File.WriteAllText("ResourcePack\\assets\\minecraft\\texts\\splashes.txt", str.ToString());
+                }
+
+                #endregion
+
                 _status = "Creating zip file(s)...";
-                
+
                 var zip1 = new ZipFile("ResourcePack.zip");
                 zip1.AddFile("ResourcePack\\pack.mcmeta", "");
                 zip1.AddFile("ResourcePack\\pack.png", "");
@@ -432,6 +462,21 @@ namespace AstolfoResourcePackInstaller
             var appdata = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             var resourcepacks = Path.Combine(appdata, ".minecraft", "resourcepacks");
             Process.Start("explorer.exe", resourcepacks);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Astolph0/AstolfoResourcePack");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Astolph0/AstolfoResourcePackInstaller");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://mldkyt.com/");
         }
     }
 }
