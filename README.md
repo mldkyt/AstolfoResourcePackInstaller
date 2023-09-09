@@ -1,4 +1,4 @@
-# AstolfoResourcePackInstaller
+# Astolfo Resource Pack Installer
 
 Creates a customized version of [https://github.com/Astolph0/AstolfoResourcePack](this resource pack).
 
