@@ -1,0 +1,15 @@
+
+U
+%AstolfoResourcePackInstaller/Form1.cs,c\c\cc3d3cf6d5a82d1c48a514a9b9d78e58630da7da
+W
+'AstolfoResourcePackInstaller/App.config,5\b\5b60a10084c8318f03ca16b458a19e57c0f1afd5
+W
+'AstolfoResourcePackInstaller/Program.cs,e\b\eb0f19fca716667654cf9e814ddb603038b8bc02
+i
+9AstolfoResourcePackInstaller/LanguageSettings.Designer.cs,0\4\0480c9bcb1e1a0b9ddf4dea60dc9a9ea8c25acb5
+`
+0AstolfoResourcePackInstaller/LanguageSettings.cs,7\f\7f43b117ded03b66923460eaf614def583450ad1
+e
+5AstolfoResourcePackInstaller/FormProgress.Designer.cs,8\e\8ec3634e81eac1c1a394b114cac092f771eb0b55
+\
+,AstolfoResourcePackInstaller/FormProgress.cs,3\0\3087af02dd2cbb38a471537c45dd9a66b630fb84
