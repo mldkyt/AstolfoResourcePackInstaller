@@ -107,7 +107,7 @@ namespace AstolfoResourcePackInstaller
                     _status = "Downloading icon...";
                     _currentlyDownloadingFile = "icon";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/pack.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/pack.png",
                         "ResourcePack\\pack.png");
                     _status = "Downloaded icon.";
                 }
@@ -119,7 +119,7 @@ namespace AstolfoResourcePackInstaller
                         _status = "Icon not found, downloading default icon...";
                         _currentlyDownloadingFile = "icon";
                         await client.DownloadFileTaskAsync(
-                            "https://github.com/Astolph0/AstolfoResourcePack/blob/master/pack.png?raw=true",
+                            "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/pack.png",
                             "ResourcePack\\pack.png");
                     }
                     else
@@ -141,37 +141,37 @@ namespace AstolfoResourcePackInstaller
                     _status = "Downloading 1/7 files for panorama...";
                     _currentlyDownloadingFile = "Panorama 1/7";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/background/panorama_0.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/background/panorama_0.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\background\\panorama_0.png");
                     _status = "Downloading 2/7 files for panorama...";
                     _currentlyDownloadingFile = "Panorama 2/7";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/background/panorama_1.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/background/panorama_1.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\background\\panorama_1.png");
                     _status = "Downloading 3/7 files for panorama...";
                     _currentlyDownloadingFile = "Panorama 3/7";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/background/panorama_2.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/background/panorama_2.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\background\\panorama_2.png");
                     _status = "Downloading 4/7 files for panorama...";
                     _currentlyDownloadingFile = "Panorama 4/7";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/background/panorama_3.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/background/panorama_3.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\background\\panorama_3.png");
                     _status = "Downloading 5/7 files for panorama...";
                     _currentlyDownloadingFile = "Panorama 5/7";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/background/panorama_4.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/background/panorama_4.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\background\\panorama_4.png");
                     _status = "Downloading 6/7 files for panorama...";
                     _currentlyDownloadingFile = "Panorama 6/7";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/background/panorama_5.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/background/panorama_5.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\background\\panorama_5.png");
                     _status = "Downloading 7/7 files for panorama...";
                     _currentlyDownloadingFile = "Panorama 7/7";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/background/panorama_overlay.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\background\\panorama_overlay.png");
                     _status = "Downloaded panorama.";
                 }
@@ -187,22 +187,22 @@ namespace AstolfoResourcePackInstaller
                     _status = "Downloading 1/4 files for menu music...";
                     _currentlyDownloadingFile = "Menu music 1/4";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/raw/master/assets/minecraft/sounds/music/menu/menu1.ogg",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/sounds/music/menu/menu1.ogg",
                         "ResourcePack\\assets\\minecraft\\sounds\\music\\menu\\menu1.ogg");
                     _status = "Downloading 2/4 files for menu music...";
                     _currentlyDownloadingFile = "Menu music 2/4";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/raw/master/assets/minecraft/sounds/music/menu/menu2.ogg",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/sounds/music/menu/menu2.ogg",
                         "ResourcePack\\assets\\minecraft\\sounds\\music\\menu\\menu2.ogg");
                     _status = "Downloading 3/4 files for menu music...";
                     _currentlyDownloadingFile = "Menu music 3/4";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/raw/master/assets/minecraft/sounds/music/menu/menu3.ogg",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/sounds/music/menu/menu3.ogg",
                         "ResourcePack\\assets\\minecraft\\sounds\\music\\menu\\menu3.ogg");
                     _status = "Downloading 4/4 files for menu music...";
                     _currentlyDownloadingFile = "Menu music 4/4";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/raw/master/assets/minecraft/sounds/music/menu/menu4.ogg",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/sounds/music/menu/menu4.ogg",
                         "ResourcePack\\assets\\minecraft\\sounds\\music\\menu\\menu4.ogg");
                     _status = "Downloaded menu music.";
                 }
@@ -218,17 +218,17 @@ namespace AstolfoResourcePackInstaller
                     _status = "Downloading 1/3 files for menu logo & edition...";
                     _currentlyDownloadingFile = "Menu logo 1/3";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/minecraft.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/minecraft.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\minecraft.png");
                     _status = "Downloading 2/3 files for menu logo & edition...";
                     _currentlyDownloadingFile = "Menu logo 2/3";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/minceraft.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/minceraft.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\minceraft.png");
                     _status = "Downloading 3/3 files for menu logo & edition...";
                     _currentlyDownloadingFile = "Menu logo 3/3";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/edition.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/edition.png",
                         "ResourcePack\\assets\\minecraft\\textures\\gui\\title\\edition.png");
                     _status = "Downloaded menu logo & edition.";
                 }
@@ -244,12 +244,12 @@ namespace AstolfoResourcePackInstaller
                     _status = "Downloading 1/2 files for default server & default resource pack icon...";
                     _currentlyDownloadingFile = "Default server & resource pack icon 1/2";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/misc/unknown_pack.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/misc/unknown_pack.png",
                         "ResourcePack\\assets\\minecraft\\textures\\misc\\unknown_pack.png");
                     _status = "Downloading 2/2 files for default server & default resource pack icon...";
                     _currentlyDownloadingFile = "Default server & resource pack icon 2/2";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/misc/unknown_server.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/misc/unknown_server.png",
                         "ResourcePack\\assets\\minecraft\\textures\\misc\\unknown_server.png");
                     _status = "Downloaded default server & default resource pack icon.";
                 }
@@ -265,7 +265,7 @@ namespace AstolfoResourcePackInstaller
                     _status = "Downloading a file for Astolfo of Undying...";
                     _currentlyDownloadingFile = "Astolfo of Undying";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/item/totem_of_undying.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/item/totem_of_undying.png",
                         "ResourcePack\\assets\\minecraft\\textures\\item\\totem_of_undying.png");
 
                     _status = "Writing language file for Astolfo of Undying...";
@@ -290,7 +290,7 @@ namespace AstolfoResourcePackInstaller
                     _status = "Downloading file for loading screen...";
                     _currentlyDownloadingFile = "Loading screen";
                     await client.DownloadFileTaskAsync(
-                        "https://github.com/Astolph0/AstolfoResourcePack/blob/master/assets/minecraft/textures/gui/title/mojangstudios.png?raw=true",
+                        "https://code.mldchan.dev/mld/AstolfoResourcePack/raw/branch/mastah/assets/minecraft/textures/gui/title/mojangstudios.png",
                         "AstolfoJarMod\\assets\\minecraft\\textures\\gui\\title\\mojangstudios.png");
                     _status = "Downloaded loading screen.";
                 }
@@ -362,6 +362,7 @@ namespace AstolfoResourcePackInstaller
                     }
 
                     stringBuilder.AppendLine("  \"menu.modded\": \" (Femboy Edition)\"");
+                    stringBuilder.AppendLine(@"}");
                     _status = "Writing language file...";
                     File.WriteAllText("ResourcePack\\assets\\minecraft\\lang\\en_us.json", stringBuilder.ToString());
                     _status = "Created language file.";
